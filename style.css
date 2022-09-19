@@ -42,12 +42,6 @@ font-size: 16px;
 line-height: 30px;
 }
 .studio{
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-}
-.studio{
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
@@ -58,7 +52,7 @@ color:var(--primary-text-color);
 .logo span{
     color:var(--accent-color) ; 
 }
-nav{
+.header-nav{
     margin-left: 93px;
 }
 .nav-list{
@@ -127,4 +121,14 @@ color:var(--thirdly-text-color)
     outline: 1px solid red;
     margin-right: auto;
     margin-left: auto;
+}
+/* portfolio */
+.portfolio-item:not(:first-child){
+    margin-left: 8px;
+}
+.portfolio-button-list{
+   justify-content: center;
+    display: flex;}
+.button-nav{
+    
 }
